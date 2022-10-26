@@ -1,0 +1,32 @@
+def Ex1_6(roman):
+ '''
+ (int) -> string
+
+This function takes numbers and outputs Roman numerals
+ example:
+ >>> Ex1_example(5)
+ V
+
+ '''
+ if roman==1:
+    print("I")
+ elif roman==2:
+    print("II")
+ elif roman==3:
+    print("III")
+ elif roman==4:
+    print("IV")
+ elif roman==5:
+    print("V")
+ elif roman==6:
+    print("VI")
+ elif roman==7:
+    ptint("VII")
+ elif roman==8:
+    print("VIII")
+ elif roman==9:
+    print("IX")
+ elif roman==10:
+    print("x")
+ else:
+    print("error")
