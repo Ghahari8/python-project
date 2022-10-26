@@ -1,1 +1,16 @@
+def Ex1_2(a,b):
+ '''
+ (int,int)--> int
 
+ This function takes the height and the base and outputs the area.
+ example:
+ >>> Ex1_2(5,2)
+ 5
+
+ '''
+ Area=(a*b)/2
+ return Area
+ 
+
+ 
+ 
