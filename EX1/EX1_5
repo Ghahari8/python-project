@@ -1,0 +1,20 @@
+def Ex1_5(age):
+ '''
+ (int) -> int
+
+ This function takes the age and returns the age group.
+ example:
+ >>> Ex1_example(5)
+ child
+
+ '''
+ if    0<age<1:
+    print("infant")
+if 1<=age<13:
+    print("child")
+if 13<=age<20:
+    print("teenager")
+if age>=20:
+    print("adult")
+else:
+    print("error")
