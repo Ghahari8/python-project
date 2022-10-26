@@ -1,0 +1,14 @@
+def Ex1_3(a,b):
+ '''
+ (int,int) -> int
+
+ This function outputs the largest integer value of the third side.
+ example:
+ >>> Ex1_(5,6)
+ 10
+
+ '''
+ s3=(a+b)-1
+ print(s3)
+ return Ex1_3
+ 
